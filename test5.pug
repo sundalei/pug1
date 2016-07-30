@@ -1,10 +1,12 @@
-h1
+h1(name=maintainer.name)
   | Maintainer:
   = ' ' + maintainer.name
 table
   tr
-    td Twitter
+    td(style='width: '+(100/2)+'%').
+      Twitter
     td= maintainer.twitter
   tr
-    td Blog
+    td(style='width: '+(100/2)+'%').
+      Blog
     td= maintainer.blog
